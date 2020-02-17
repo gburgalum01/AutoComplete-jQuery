@@ -1,0 +1,31 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="jquery/jquery-ui.css">
+		<link rel="stylesheet" href="css/autocomplete.css">
+		
+		<script type="text/javascript" src="jquery/jquery-1.10.2.min.js"></script>
+		<script type="text/javascript" src="jquery/jquery-ui-1.10.2.js"></script>
+		<script type="text/javascript" src="js/autocomplete.js"></script>
+	</head>
+	<body>
+		<div class="countryTable">
+			<div class="countryRow">
+				<div class="countryColumnLabel">
+					<b>Country: </b>
+				</div>
+				<div class="countryColumn">
+					<input type="text" id="countries" value="Type the component name or choose from the list.">
+				</div>
+			</div>
+			<div class="countryRow">
+				<div class="countryColumnLabel">
+					<b>Selected Country: </b>
+				</div>
+				<div class="countryColumn">
+					<span id="selectedCountry"/>
+				</div>
+			</div>
+		</div>
+		<input type="hidden" id="previousSelectedCountry"/>
+	</body>
+</html>

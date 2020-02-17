@@ -1,0 +1,37 @@
+/* autocomplete.css */
+
+.countryTable {
+	display: table; 
+	width: 50%;
+}
+
+.countryRow {
+	display: table-row;
+}
+
+.countryColumn {
+	display: table-cell;
+}
+
+.countryColumnLabel {
+	display: table-cell;
+	width: 15%;
+	padding-top: 10px;
+}
+
+input#countries {
+	box-shadow:none;
+}
+		
+.ui-autocomplete {
+	max-height:25%;
+	overflow-y: auto;
+	font-size:12px;
+}
+		
+.ui-autocomplete-input {
+	font-size: 12px;
+	font-style: italic;
+	width: 75%;
+	color: gray;
+}
